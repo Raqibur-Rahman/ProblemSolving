@@ -7,7 +7,6 @@ public class FactorialUsingRecursion {
         int input=scanner.nextInt();
         int result= Factorial(input);
         System.out.println(result);
-        
     }
 
     private static int Factorial(int input) {
