@@ -8,7 +8,6 @@ public class FactorialUsingRecursion {
         int result= Factorial(input);
         System.out.println(result);
     }
-
     private static int Factorial(int input) {
         if(input==0)
             return 1;
