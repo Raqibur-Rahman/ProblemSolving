@@ -4,8 +4,10 @@ public class LeetCode_344_ReverseString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.next();
+
         char [] arr = input.toCharArray();
         reverseString(arr);
+
         int length = arr.length;
         for (int i = 0;i<length;i++){
             if (i==0)
