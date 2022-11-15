@@ -9,7 +9,6 @@ public class CamelCase {
         camelcase(input);
         System.out.println(camelcase(input));
     }
-
     private static int camelcase(String input) {
         int result=0;
         int stringLength = input.length();
