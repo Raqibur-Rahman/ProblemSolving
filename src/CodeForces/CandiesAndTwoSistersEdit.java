@@ -6,6 +6,7 @@ public class CandiesAndTwoSistersEdit {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int tc = s.nextInt();
+
         while (tc > 0) {
             int n = s.nextInt();
             if (n % 2 == 0) {
