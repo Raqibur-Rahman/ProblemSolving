@@ -6,6 +6,7 @@ public class LuckyFour {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int tc=sc.nextInt();
+
         while (tc-->0){
             int in=sc.nextInt();
             int count = 0;
