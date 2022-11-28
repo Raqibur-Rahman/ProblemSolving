@@ -16,8 +16,6 @@ public class FirstAndLastDigit {
                 list.add(reminder);
                 in = in / 10;
             }
-
-
             System.out.println(list.get(0) + list.get(list.size() - 1));
 
 
